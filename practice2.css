@@ -1,0 +1,38 @@
+* {box-sizing: border-box;}
+
+.pig-travel {position: relative;
+width: 400px; height: 384px;}
+
+.travel-image a {
+    position: absolute;}
+
+.btn1, .btn2 { 
+    text-decoration: none; color: rgb(255, 255, 255);
+    font-size: 50px; font-optical-sizing: 20%;
+    top:88px;}
+
+.btn2 {right:0px;}
+
+img { 
+    display:block; width: 400px; height: 270px;
+    position: absolute; top:-30px;}
+
+.travel-content {
+    position: absolute; 
+    background-color: white;
+    bottom: 70px; padding: 12px 16px;
+    }
+.travel-name { 
+    font-size: 22px; font-weight: 600;
+    bottom: 70px; margin: 0px;}
+
+.travel-company {
+     font-size: 16px; font-weight: 400;
+     color: #7D858F; margin: 0px;}
+
+.travel-price { 
+    font-size: 16px; font-weight: 400;
+    color: #7D858F; position: absolute;
+    right: 16px; bottom: 12px;}
+
+#price { font-size: 22px; font-weight: 700; color: #2860E1;}
